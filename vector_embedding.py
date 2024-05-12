@@ -11,7 +11,7 @@ df = pd.DataFrame()
 # openai_api_key = os.getenv('OPENAI_API_KEY')
 openai_api_key = os.environ.get('OPENAI_API_KEY')
 print("printing \n", openai_api_key)
-openai_api_key = "sk-proj-kTVJVY3TbLQzr3NCcfx2T3BlbkFJsmaCOYrWPxSP5xzZxIYq"
+
 client = OpenAI(api_key = openai_api_key)
 
 
