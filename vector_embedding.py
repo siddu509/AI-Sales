@@ -17,9 +17,7 @@ print(dotenv_path)
 load_dotenv(dotenv_path=dotenv_path)
 
 df = pd.DataFrame()
-# openai_api_key = os.getenv('OPENAI_API_KEY')
 openai_api_key = os.environ.get('OPENAI_API_KEY')
-print("printing \n", openai_api_key)
 client = OpenAI(api_key = openai_api_key)
 
 
